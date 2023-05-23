@@ -1,5 +1,5 @@
 .navbar {
-    background-image: url('MATERIAL COMPLEMENTARIO/fondo.jpg');
+    background-image: url('../img/fondo.jpg');
     background-size: 25%;
 }
 
@@ -84,7 +84,7 @@ h2 {
     color: aliceblue;
     padding: 15%;
     margin: 0%;
-    background-image: url('MATERIAL COMPLEMENTARIO/fondo.jpg');
+    background-image: url('../img/fondo.jpg');
     font-size: 2vw;
     height: 100px;
 }

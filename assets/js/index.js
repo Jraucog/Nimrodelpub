@@ -67,11 +67,22 @@ $("#botondereserva").click(function () {
 $(document).ready(function () {
     $('.card').click(function () {
         $(this).addClass('show-popup');
-        $(this).append('<div class="close-popup">X</div>');
+        $(this).append('<div class="close-popup">x</div>');
     });
 
     $(document).on('click', '.close-popup', function () {
         $('.card').removeClass('show-popup');
         $('.close-popup').remove();
+    });
+
+
+    
+    $('#sobrenosotros-link').click(function (e) {
+        e.preventDefault();
+        $('#popup-container').fadeIn();
+    });
+    
+    $('#cerrar-popup').click(function () {
+        $('#popup-container').fadeOut();
     });
 });
